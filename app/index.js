@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import { Platform, StyleSheet, Text, View } from 'react-native';
 import { NativeRouter, Route } from 'react-router-native';
 
-import Home from './home/index';
-import User from './user/index';
+import Home from './home';
 
 export default class App extends Component {
     render() {
